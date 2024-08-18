@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account | Kawaii</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <!-- Make sure the path to the image is correct -->
+            <a class="navbar-brand" href="index.html">
+              <img src="kawaii.PNG" alt="Kawaii">
+            </a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="login-container">
+        <h1 class="login-title">Create Account</h1>
+        <form class="login-form" action="/create-account" method="post">
+            <div class="form-group">
+                <input type="email" class="form-control" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" placeholder="Password" required>
+                <p class="help-block">Use at least 6 characters, do not use empty spaces.</p>
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox"> I want all the latest Kawaii info, offers, and news.
+                </label>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">CREATE ACCOUNT</button><br>
+            <p class="terms">
+                By creating an account you're agreeing to our <a href="#" style="color: #87bfff;">Terms & Privacy Policy</a>, 
+                and you confirm that you are at least 16 years of age.
+            </p>
+            <hr>
+            <p class="already-account">Already have an account? <a href="login.html" style="color: #87bfff;">Log In</a></p>
+        </form>
+    </div>
+
+
+    <div class="footer-links">
+        <a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a> | <a href="#">Cookie Consent Tool</a>
+    </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>

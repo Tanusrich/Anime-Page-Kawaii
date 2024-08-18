@@ -1,0 +1,182 @@
+body {
+    background-color: #1A1A1B; /* Dark background */
+    color: #ffffff;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-image: url('bg.jpg'); /* Add your background image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.create-account-container {
+    padding-top: 50px; /* Push down the container */
+}
+
+.account-form {
+    background: #333333;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.account-form h1 {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.account-form label {
+    color: #aaaaaa;
+}
+
+.account-form .form-control {
+    background: none;
+    border: 1px solid #666666;
+    border-radius: 0;
+    box-shadow: none;
+    color: #ffffff;
+}
+
+.account-form .help-block {
+    color: #888888;
+    font-size: smaller;
+}
+
+.account-form .btn-primary {
+    background-color: #e50914;
+    border-color: #e50914;
+}
+
+.account-form .terms {
+    color: #aaaaaa;
+    font-size: smaller;
+    text-align: center;
+}
+
+.account-form .already-account {
+    color: #aaaaaa;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.account-form .already-account a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+    .create-account-container {
+        padding-top: 20px;
+    }
+
+    .account-form {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+.navbar-default {
+    background-color: transparent; /* Make the navbar transparent or any color */
+    border: none;
+    height: 100%;
+    padding: 15px 20px; /* Increase padding to make the logo area bigger */
+}
+
+.navbar-brand img {
+    max-height: 100px; /* Adjust the size of your logo */
+    padding: 15px 20px;
+    margin-left: 20px;
+}
+
+/* Override the default Bootstrap media query for navbar-brand */
+@media (min-width: 768px) {
+    .navbar .navbar-brand {
+        padding: 0; /* Remove padding if necessary */
+    }
+}
+
+.footer-links {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #141414; /* Match the navbar color */
+    color: #999; /* Light gray text, as shown in the screenshot */
+    padding: 20px 20px; /* Padding at the top and bottom */
+    font-size: 14px; /* Smaller font size for the footer text */
+    border-top: 1px solid #222; /* Add a subtle border */
+}
+
+.footer-links a {
+    color: #999; /* Same as the text color */
+    margin: 0 15px; /* Spacing between links */
+    transition: color 0.3s; /* Smooth color transition for hover effect */
+    text-decoration: none; /* Removes underline from links */
+}
+
+.footer-links a:hover, .footer-links a:focus {
+    color: #fff; /* White text on hover/focus */
+    text-decoration: none; /* Continues to remove underline on hover/focus */
+}
+
+/* You can add media query for responsiveness if needed */
+@media (max-width: 767px) {
+    .footer-links {
+        font-size: 12px; /* Smaller font size on small screens */
+    }
+    .footer-links a {
+        margin: 0 8px; /* Less spacing between links on small screens */
+    }
+}
+
+
+.login-container {
+    width: 100%;
+    max-width: 450px;
+    padding: 60px 20px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.login-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.login-form .form-group {
+    margin-bottom: 15px;
+}
+
+.login-form .form-control {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    padding: 10px 15px;
+}
+
+.login-form .btn-primary {
+    background-color: #4191eb;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 20px;
+}
+
+.signup-link {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.signup-link a {
+    color: #87bfff;
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
